@@ -5,7 +5,7 @@ version: "2.4"
 services:
   whoogle-search:
     image: ${WHOOGLE_IMAGE:-benbusby/whoogle-search}
-    container_name: whoogle-search
+    container_name: pg-media-group-search
     restart: unless-stopped
     pids_limit: 50
     mem_limit: 256mb
@@ -44,6 +44,6 @@ services:
       #- WHOOGLE_ALT_QUORA=farside.link/quetre
       #- WHOOGLE_ALT_SO=farside.link/anonymousoverflow
     #env_file: # Alternatively, load variables from whoogle.env
-      #- whoogle.env
+      - whoogle.env
     ports:
       - 5000:5000
