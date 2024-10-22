@@ -1,19 +1,17 @@
 apiVersion: v2
-name: whoogle
+name: pg media group search
 description: A self hosted search engine on Kubernetes
 type: application
 version: 0.1.0
 appVersion: 0.9.0
 
-icon: https://github.com/benbusby/whoogle-search/raw/main/app/static/img/favicon/favicon-96x96.png
+icon: https://github.com/gordonpeyton83/whoogle-search/raw/main/app/static/img/favicon/favicon-96x96.png
 
 sources:
-  - https://github.com/benbusby/whoogle-search
-  - https://gitlab.com/benbusby/whoogle-search
-  - https://gogs.benbusby.com/benbusby/whoogle-search
+  - https://github.com/gordonpeyton83/whoogle-search
+  - https://gitlab.com/gordonpeyton83/whoogle-search
 
 keywords:
-  - whoogle
   - degoogle
   - search
   - google
