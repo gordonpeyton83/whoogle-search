@@ -76,6 +76,6 @@ services:
       # - WHOOGLE_CONFIG_PREFERENCES_ENCRYPTED=1
       # - WHOOGLE_CONFIG_PREFERENCES_KEY="NEEDS_TO_BE_MODIFIED"
     #env_file: # Alternatively, load variables from whoogle.env
-      #- whoogle.env
+      - whoogle.env
     ports:
       - 8000:5000
